@@ -1,0 +1,13 @@
+# 환경변수 / 비밀키
+.env
+*.key
+*.pem
+id_rsa
+credentials
+
+# Claude 로컬 설정 (개인 권한 설정 등)
+.claude/settings.local.json
+
+# OS
+Thumbs.db
+.DS_Store
