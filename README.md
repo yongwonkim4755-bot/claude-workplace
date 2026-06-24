@@ -15,7 +15,8 @@ claude-workplace/
 ├── .env                 # 환경변수 (API 키 등) ← git 제외, 절대 공유 금지
 ├── .gitignore           # git에서 제외할 파일 목록
 │
-├── portfolio.html       # 포트폴리오 페이지
+├── index.html           # 포트폴리오 페이지 (Vercel 배포 대상)
+├── .vercelignore        # Vercel 배포 시 제외할 파일 목록
 ├── weather_fetch.py      # 날씨 데이터 가져오기 (Python)
 ├── weather_fetch.ps1      # 날씨 데이터 가져오기 (PowerShell)
 ├── weather.txt           # 날씨 데이터 저장 결과
@@ -70,6 +71,12 @@ notepad C:\Users\yongw\claude-workplace\.env
 ### 할 일 목록 열기
 ```powershell
 notepad C:\Users\yongw\claude-workplace\tasks\todo.md
+```
+
+### Vercel 배포
+`index.html`이 포트폴리오 페이지입니다. `.vercelignore`로 이력서·매출 데이터 등 비공개 파일은 배포에서 제외되어 있습니다.
+```powershell
+vercel
 ```
 
 ---

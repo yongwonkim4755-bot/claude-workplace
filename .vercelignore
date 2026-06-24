@@ -1,0 +1,12 @@
+# index.html(포트폴리오) 외에는 배포에서 제외
+docs/
+tasks/
+CLAUDE.md
+SECURITY.md
+README.md
+weather.txt
+weather_fetch.py
+weather_fetch.ps1
+.claude/
+.gitignore
+.git/
